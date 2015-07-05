@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ApiGuide</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_services">Services</string>
+    <string name="title_activity_service_messenger">ServiceMessengerActivity</string>
+    <string name="title_activity_handler">HandlerActivity</string>
+    <string name="main_handler_desc">点击上面的TextView会在主线程的Handler发送消息，从而导致假死的现象。因为Handler中线程睡眠20秒，所以在主线程的Handler中不要做过多的操作。</string>
+</resources>
