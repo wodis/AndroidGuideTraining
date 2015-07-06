@@ -8,4 +8,6 @@
     <string name="title_activity_service_messenger">ServiceMessengerActivity</string>
     <string name="title_activity_handler">HandlerActivity</string>
     <string name="main_handler_desc">点击上面的TextView会在主线程的Handler发送消息，从而导致假死的现象。因为Handler中线程睡眠20秒，所以在主线程的Handler中不要做过多的操作。</string>
+    <string name="title_activity_looper_handler">LooperHandlerActivity</string>
+    <string name="looper_handler">这个Demo创建了Handler，为了不阻塞主线程，使用了HandlerThread创建一个新的Looper。</string>
 </resources>

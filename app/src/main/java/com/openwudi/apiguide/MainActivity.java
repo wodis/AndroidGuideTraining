@@ -35,6 +35,7 @@ public class MainActivity extends ActionBarActivity {
         data.add("Services");
         data.add("MessengerServices");
         data.add("Handler");
+        data.add("LooperHandler");
 
 
         adapter = new MainAdapter(this, data);
@@ -124,6 +125,9 @@ public class MainActivity extends ActionBarActivity {
                             break;
                         case 3:
                             intent = new Intent(context, HandlerActivity.class);
+                            break;
+                        case 4:
+                            intent = new Intent(context, LooperHandlerActivity.class);
                             break;
                     }
 

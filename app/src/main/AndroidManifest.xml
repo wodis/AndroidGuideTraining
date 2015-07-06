@@ -36,7 +36,11 @@
         </activity>
         <activity
             android:name=".HandlerActivity"
-            android:label="@string/title_activity_handler">
+            android:label="@string/title_activity_handler" >
+        </activity>
+        <activity
+            android:name=".LooperHandlerActivity"
+            android:label="@string/title_activity_looper_handler" >
         </activity>
     </application>
 
