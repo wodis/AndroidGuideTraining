@@ -42,6 +42,12 @@
             android:name=".LooperHandlerActivity"
             android:label="@string/title_activity_looper_handler" >
         </activity>
+        <activity
+            android:name=".AIDLActivity"
+            android:label="@string/title_activity_aidl" >
+        </activity>
+
+        <service android:name=".services.AIDLService"/>
     </application>
 
 </manifest>
